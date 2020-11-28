@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-image: url(image/eight_horns.png);
+	color: #333333;
+	font: 16px/28px arial, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+	width: 960px;
+	margin:80px auto;
+	background-color: white;
+}
+
+.twitter {
+	width: 200px;
+	height: 200px;
+	background-image: url(image/twitter.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 57px;
+	right: 166px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header {
+	padding: 20px;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.hero {
+	height: 250px;
+	background-image: url(image/reman1.jpeg);
+	background-size: cover;
+	background-position: 0 0%;
+	border-top:5px solid salmon;
+	border-bottom:5px solid lightgreen;
+	
+}
+
+.heri {
+	height: 57px;
+	background-color: white;
+	margin-top: -60px;
+}
+
+.main {
+	width: 600px;
+	padding: 25px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main .juar {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.main a {
+	text-decoration: none;
+	color: salmon;
+}
+
+.main a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.main .penulis{
+	font-size: 13px;
+	margin-top: -5px;
+}
+
+.main p {
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.sidebar {
+	width: 300px;
+	float: right;
+	padding: 25px;
+}
+
+.sidebar img {
+	width: 95px;
+	height: 95px;
+	float: left;
+	padding-right: 10px;
+}
+
+.sidebar h3 {
+	font-size: 25px;
+	color: #666;
+	font-weight: bold;
+}
+
+.sidebar p {
+	font: 12px/18px arial;
+}
+
+.footer {
+	background-color: #333333;
+	padding: 15px;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	font-size: 15px;
+	text-align: center;
+}
+
+ .cf:before,
+ .cf:after {
+	 content: " "; /* 1 */
+	 display: table; /* 2 */
+ }
+ 
+ .cf:after {
+	 clear: both;
+ }
+ 
+ .cf {
+	 *zoom: 1;
+ }
